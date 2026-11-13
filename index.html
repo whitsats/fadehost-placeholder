@@ -2,10 +2,45 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<title>占位页</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>whitsats</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+  }
+  .card {
+    text-align: center;
+    padding: 3rem 2.5rem;
+    margin: 1rem;
+    max-width: 520px;
+    background: rgba(255, 255, 255, .08);
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 24px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .35);
+  }
+  h1 { font-size: 3rem; letter-spacing: .05em; font-weight: 700; }
+  .line {
+    width: 64px; height: 3px; margin: 1.5rem auto; border-radius: 2px;
+    background: linear-gradient(90deg, #7dd3fc, #a78bfa);
+  }
+  .tag { color: rgba(255, 255, 255, .8); font-size: 1.05rem; }
+  .note { margin-top: .75rem; color: rgba(255, 255, 255, .55); font-size: .95rem; }
+</style>
 </head>
 <body>
-<h1>占位页</h1>
-<p>这里以后会放东西，现在先占个位。</p>
+  <div class="card">
+    <h1>whitsats</h1>
+    <div class="line"></div>
+    <p class="tag">你好，这里是 whitsats 的小站</p>
+    <p class="note">这里以后会放东西，现在先占个位。</p>
+  </div>
 </body>
 </html>
